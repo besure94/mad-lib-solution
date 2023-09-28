@@ -13,14 +13,16 @@ namespace MadLibs.Controllers
     public ActionResult Form() { return View(); }
 
     [Route("/story")]
-    public ActionResult Story(string noun, string adjective, string exclamation, string adverb, string secondNoun)
+    public ActionResult Story(string noun, string adverb, string adjective, string secondNoun, string exclamation, string SecondAdverb, string ThirdNoun)
     {
       MadLibVariable myMadLibVariable = new MadLibVariable();
       myMadLibVariable.Noun = noun;
-      myMadLibVariable.Adjective = adjective;
-      myMadLibVariable.Exclamation = exclamation;
       myMadLibVariable.Adverb = adverb;
+      myMadLibVariable.Adjective = adjective;
       myMadLibVariable.SecondNoun = secondNoun;
+      myMadLibVariable.Exclamation = exclamation;
+      myMadLibVariable.SecondAdverb = SecondAdverb;
+      myMadLibVariable.ThirdNoun = ThirdNoun;
       return View(myMadLibVariable);
     }
   }
