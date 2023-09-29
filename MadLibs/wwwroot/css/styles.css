@@ -24,6 +24,8 @@ body {
 img {
   width: 800px;
   height: auto;
+  border: solid 4px #ff0035;
+  margin-top: 2%;
 }
 
 input {
