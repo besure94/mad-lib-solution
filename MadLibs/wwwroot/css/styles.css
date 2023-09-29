@@ -1,0 +1,41 @@
+h1 {
+  color: #ff0035;
+  font-family: Lucida Handwriting;
+  font-weight: bold;
+}
+
+h2 {
+  color:#ff0035;
+  font-family: Lucida Handwriting;
+}
+
+p {
+  color:#ff0035;
+  font-family: Brush Script MT;
+  font-size: large;
+}
+
+body {
+  background-color: #1f1b1c;
+}
+
+input {
+  background-color: #e9ecef;
+  font-weight: 600;
+  font-size: #1f1b1c;
+}
+
+label {
+  color:#ff0035;
+  font-weight: 700;
+}
+
+button {
+  background-color: #ff0035;
+  color: #1f1b1c;
+  font-weight: 700;
+}
+
+hr {
+  color: #ff0035;
+}
