@@ -1,3 +1,18 @@
+a {
+  color: #ff0035;
+}
+
+body {
+  background-color: #1f1b1c;
+}
+
+button {
+  background-color: #ff0035;
+  color: #1f1b1c;
+  font-weight: 700;
+  font-family: Lucida console;
+}
+
 h1 {
   color: #ff0035;
   font-family: Monospace Monaco;
@@ -10,19 +25,8 @@ h2 {
   font-weight: 700;
 }
 
-a {
+hr {
   color: #ff0035;
-}
-
-p {
-  color:#ff0035;
-  font-family: Lucida console;
-  font-size: large;
-  font-weight: 500;
-}
-
-body {
-  background-color: #1f1b1c;
 }
 
 img {
@@ -44,15 +48,11 @@ label {
   font-family: Lucida console;
 }
 
-button {
-  background-color: #ff0035;
-  color: #1f1b1c;
-  font-weight: 700;
+p {
+  color:#ff0035;
   font-family: Lucida console;
-}
-
-hr {
-  color: #ff0035;
+  font-size: large;
+  font-weight: 500;
 }
 
 .story {
