@@ -26,5 +26,6 @@ namespace MadLibs.Controllers
       myMadLibVariable.FourthNoun = FourthNoun;
       return View(myMadLibVariable);
     }
+
   }
 }

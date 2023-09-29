@@ -21,6 +21,11 @@ body {
   background-color: #1f1b1c;
 }
 
+img {
+  width: 800px;
+  height: auto;
+}
+
 input {
   background-color: #e9ecef;
   font-weight: 600;
