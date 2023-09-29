@@ -1,18 +1,20 @@
 h1 {
   color: #ff0035;
-  font-family: Lucida Handwriting;
+  font-family: Monospace Monaco;
   font-weight: bold;
 }
 
 h2 {
   color:#ff0035;
-  font-family: Lucida Handwriting;
+  font-family: Monospace Monaco;;
+  font-weight: 700;
 }
 
 p {
   color:#ff0035;
-  font-family: Brush Script MT;
+  font-family: Lucida console;
   font-size: large;
+  font-weight: 500;
 }
 
 body {
@@ -28,14 +30,26 @@ input {
 label {
   color:#ff0035;
   font-weight: 700;
+  font-family: Lucida console;
 }
 
 button {
   background-color: #ff0035;
   color: #1f1b1c;
   font-weight: 700;
+  font-family: Lucida console;
 }
 
 hr {
   color: #ff0035;
+}
+
+.story {
+  transition-property: font-size;
+  transition-duration: 1s;
+  transition-delay: 0.5;
+}
+
+.story:hover {
+  font-size: 20px;
 }
