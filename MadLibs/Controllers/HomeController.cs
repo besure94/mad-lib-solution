@@ -27,5 +27,24 @@ namespace MadLibs.Controllers
       return View(myMadLibVariable);
     }
 
+    [Route("/secondForm")]
+    public ActionResult SecondForm() { return View(); }
+
+    [Route("/storyTwo")]
+    public ActionResult StoryTwo(string noun, string adverb, string exclamation, string secondNoun, string secondAdverb, string ThirdNoun,  string secondExclamation, string FourthNoun,  string fifthNoun)
+    {
+      SecondMadLibVariable mySecondMadLibVariable = new SecondMadLibVariable();
+      mySecondMadLibVariable.Noun = noun;
+      mySecondMadLibVariable.Adverb = adverb;
+      mySecondMadLibVariable.Exclamation = exclamation;
+      mySecondMadLibVariable.SecondNoun = secondNoun;
+      mySecondMadLibVariable.SecondAdverb = secondAdverb;
+      mySecondMadLibVariable.ThirdNoun = ThirdNoun;
+      mySecondMadLibVariable.SecondExclamation = secondExclamation;
+      mySecondMadLibVariable.FourthNoun = FourthNoun;
+      mySecondMadLibVariable.FifthNoun = fifthNoun;
+      return View(mySecondMadLibVariable);
+    }
+
   }
 }
