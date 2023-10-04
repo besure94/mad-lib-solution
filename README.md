@@ -18,7 +18,6 @@ This application allows users to create two Mad Libs of their choice. A mad lib 
 1. Select the green button that says `Code`, and clone this repository.
 2. Open your terminal and navigate to this project's production directory called `Mad Libs`.
 3. Run the command `dotnet watch run` in the command line to launch the project in live development mode with a watcher.
-4. You can also simply view the project by running the command `dotnet run` and selecting `https://localhost:5001`.
 
 ## Known Bugs
 
